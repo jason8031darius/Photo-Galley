@@ -7,7 +7,7 @@ float:left;
 list-style:none;
 color:white;
 position:fixed;
-background:black;
+background:transparent;
 width:100%;
 margin-top:0px;
 top:0px;
@@ -19,7 +19,7 @@ font-size:20px;
 padding-left:35px;
 padding-right:35px;
 }
-#img1{
+#bulb{
   width: 100%;
 }
 .img2{
@@ -64,6 +64,7 @@ padding-right:35px;
 #myCarousel img
 {
     height: 350px;
+    width: 546px;
        }
 
 .carousel-inner p
@@ -72,4 +73,12 @@ padding-right:35px;
     margin-top: 15px;
     color : white;
     font-size: 20px;
+}
+#myCarousel :hover{
+
+}
+
+
+  #img :hover{
+
 }
